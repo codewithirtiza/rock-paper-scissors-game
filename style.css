@@ -1,0 +1,46 @@
+/* THIS SETS THE BACKGROUND COLOR. THE FONT COLOR AND THE FONT FAMILY */
+body {
+  background-color: rgb(25, 25, 25);
+  color: whitesmoke;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font: bold 2rem;
+}
+
+.move {
+  height: 100px;
+}
+
+/* STYLES FOR THE MOVE BUTTON */
+.move-btn {
+  background-color: transparent;
+  border: 3px solid whitesmoke;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+
+/* STYLES FOR THE RESULT PARAGRAPH */
+.result {
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: 50px;
+}
+
+/* STYLE FOR THE SCORE */
+.score {
+  margin-top: 60px;
+}
+
+/* STYLE FOR THE RESET SCORE BUTTON */
+.reset-score {
+  background-color: whitesmoke;
+  color: rgb(25, 25, 25);
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+  padding: 10px 15px;
+}

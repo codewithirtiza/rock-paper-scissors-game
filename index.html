@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Syed Muhammad Irtiza Haider" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+    <title>Rock Paper Scissors</title>
+  </head>
+
+  <body>
+    <!-- ========== HEADER SECTION ========== -->
+    <header class="header">
+      <h1 class="header__h1">Rock, Paper and Scissors</h1>
+    </header>
+
+    <!-- ========== MAIN SECTION: GAME INTERFACE ========== -->
+    <main class="main">
+      <!-- Rock Button -->
+      <button class="rock move-btn">
+        <img src="img/Rock.png" alt="Rock" class="rock move" />
+      </button>
+
+      <!-- Paper Button -->
+      <button class="paper move-btn">
+        <img src="img/Paper.png" alt="Paper" class="paper move" />
+      </button>
+
+      <!-- Scissors Button -->
+      <button class="scissors move-btn">
+        <img src="img/Scissors.png" alt="Scissors" class="scissors move" />
+      </button>
+
+      <!-- Displays the result (win/lose/tie) -->
+      <p class="result"></p>
+
+      <!-- Shows both player's and computer's move -->
+      <p class="moves"></p>
+
+      <!-- Displays the current score -->
+      <p class="score"></p>
+
+      <!-- Resets the game score -->
+      <button class="reset-score">Reset Score</button>
+    </main>
+
+    <!-- ========== FOOTER SECTION ========== -->
+    <footer class="footer">
+      <p>
+        Copyright &copy; <time id="time"></time> Syed Muhammad Irtiza Haider.
+        All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>
