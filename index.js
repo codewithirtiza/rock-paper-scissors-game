@@ -110,7 +110,7 @@ document.querySelector(".reset-score").addEventListener("click", () => {
 });
 
 // Keyboard shortcuts: Press R, P, or S to play a move
-document.body.addEventListener("keydown", (event) => {
+/* document.body.addEventListener("keydown", (event) => {
   if (event.key === "r") {
     resultCalc("Rock");
   } else if (event.key === "p") {
@@ -120,7 +120,7 @@ document.body.addEventListener("keydown", (event) => {
   } else {
     alert("This key isn't defined");
   }
-});
+}); */
 
 // Automatically updates the copyright year
 const year = document.getElementById("year");

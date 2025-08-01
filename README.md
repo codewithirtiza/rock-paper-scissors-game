@@ -27,10 +27,7 @@ ROCK PAPER SCISSORS/
 
 ## 💻 How to Run
 
-1. Download or clone this repository:
-   git clone https://github.com/yourusername/rock-paper-scissors.git
-
-2. Open the `index.html` file in any web browser.
+You can run this project on the web by clicking [view](https://rock-paper-scissors-browser-game.netlify.app)
 
 ## 🛠 Technologies Used
 
