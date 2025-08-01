@@ -21,10 +21,6 @@ ROCK PAPER SCISSORS/
   - Press `S` for Scissors
 - Reset button to clear the score
 
-## 📷 Screenshots
-
-(You can add screenshots of your game here if you want)
-
 ## 💻 How to Run
 
 You can run this project on the web by clicking [view](https://rock-paper-scissors-browser-game.netlify.app)
